@@ -47,8 +47,9 @@ img {
 }
 
 .accedi,
-.scarica-mac,
-.apri-browser {
+.scarica-mac-white,
+.apri-browser,
+.scarica-mac-blue {
     padding: 15px;
     height: 30px;
     border-bottom-left-radius: 20px;
@@ -58,7 +59,7 @@ img {
 }
 
 .accedi, 
-.scarica-mac {
+.scarica-mac-white {
     border: 1px solid white;
 }
 
@@ -89,7 +90,7 @@ img {
     padding-bottom: 30px;
 }
 
-h2 {
+h2 :not(.space-h2-5) {
     font-size: 4cap;
 }
 
@@ -115,7 +116,7 @@ p {
 }
 
 .space-h2-1,
-.space-h2-2 {
+.space-h2-2, {
     margin-top: 7%;
     padding-bottom: 5%;
 }
@@ -146,24 +147,42 @@ p {
     margin-right: 20%;
 }
 
-.space-h2-3 {
+.space-h2-3, {
     margin-top: 10%;
     padding-bottom: 5%;
 }
 
-.container-img4 {
+.container-gray2 {
+    background-color: lightgray;
     padding: 30px;
-    max-width: 100%;
+}
+
+.container-img4 {
     height: 600px;
-    margin: 0 auto;
+    display: flex;
 }
 
 .container-text4 {
-    height: 550px;
+    height: 130px;
+    text-align: center;
+}
+
+.space-h2-4 {
+    margin-top: 5%;
 }
 
 .container-text5 {
-    height: 550px;
+    width: 50%;
+    text-align: center;
+    padding-top: 3%;
+    background-image: url(../stars.svg);
+}
+
+.scarica-mac-blue {
+    border: 1px solid #7289DA;
+    background-color: #7289DA;
+    color: white;
+    margin: 3%;
 }
 /*
     FOOTER
