@@ -19,6 +19,9 @@ html {
 /*
     GENERAL
 */
+img {
+    max-width: 100%;
+}
 
 /*
     HEADER
@@ -34,32 +37,134 @@ html {
 
 
 .discord {
-    flex-basis: 20%;
+    flex-basis: 10%;
     }
 
-.scarica {
-    flex-basis: 5%;
+.nav-button {
+    flex-basis: 70%;
+    text-align: center;
+    color: white;
 }
 
-.perche-discord {
-    flex-basis: 9%;
+.accedi,
+.scarica-mac,
+.apri-browser {
+    padding: 15px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.nitro {
-    flex-basis: 4%;
+.accedi, 
+.scarica-mac {
+    border: 1px solid white;
 }
 
-.sicurezza {
-    flex-basis: 6%;
-}
-
-.assistenza {
-    flex-basis: 6%;
+.apri-browser {
+    color: white;
+    background-color: #23272A;
+    border: 1px solid #23272A;
 }
     /*
     MAIN
 */
+.container-blu {
+    background-image: url(../jumbo.png);
+    background-size: cover;
+    display: flex;
+}
 
+.first-main {
+    max-width: 100%;
+    height: 550px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.first-main > h2 {
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 4cap;
+}
+
+p {
+    padding: 5px;
+    font-size: larger;
+}
+
+.container-white {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+}
+
+.container-img1 {
+    height: 550px;
+    margin-left: 20%;
+}
+
+.container-text1 {
+    height: 550px;
+    margin-right: 20%;
+}
+
+.space-h2-1,
+.space-h2-2 {
+    margin-top: 7%;
+    padding-bottom: 5%;
+}
+
+.container-gray {
+    background-color: lightgray;
+    padding: 30px;
+    display: flex;
+}
+
+.container-img2 {
+    height: 550px;
+    margin-right: 20%;
+}
+
+.container-text2 {
+    height: 550px;
+    margin-left: 20%;
+}
+
+.container-img3 {
+    height: 550px;
+    margin-left: 20%;
+}
+
+.container-text3 {
+    height: 550px;
+    margin-right: 20%;
+}
+
+.space-h2-3 {
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+.container-img4 {
+    padding: 30px;
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container-text4 {
+    height: 550px;
+}
+
+.container-text5 {
+    height: 550px;
+}
 /*
     FOOTER
 */
