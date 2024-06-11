@@ -19,7 +19,7 @@ html {
 /*
     GENERAL
 */
-img {
+img :not(.ita-img){
     max-width: 100%;
 }
 
@@ -36,7 +36,7 @@ img {
 }
 
 
-.discord {
+.discord1 {
     flex-basis: 10%;
     }
 
@@ -49,7 +49,8 @@ img {
 .accedi,
 .scarica-mac-white,
 .apri-browser,
-.scarica-mac-blue {
+.scarica-mac-blue,
+.registrati-button {
     padding: 15px;
     height: 30px;
     border-bottom-left-radius: 20px;
@@ -178,7 +179,8 @@ p {
     background-image: url(../stars.svg);
 }
 
-.scarica-mac-blue {
+.scarica-mac-blue,
+.registrati-button {
     border: 1px solid #7289DA;
     background-color: #7289DA;
     color: white;
@@ -187,3 +189,66 @@ p {
 /*
     FOOTER
 */
+
+.container-dark {
+    background-color: #23272A;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
+
+.container1 {
+    width: 13%;
+    height: 550px;
+    margin-left: 21%;
+}
+
+.container2 {
+    width: 10.51%;
+    height: 550px;
+}
+
+.space-h2-6,
+.container2 :first-child {
+    color: #7288D8;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.italiano {
+    margin-left: 3%;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-size: 2cap;
+}
+
+.logo > * {
+    margin: 4%;
+}
+
+.container-hr {
+    color: white;
+    display: flex;
+    width: 100px;
+}
+
+.container-footer {
+    margin: 0 auto;
+    width: 7%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discord2{
+    
+}
+.registrati-button {
+
+}
