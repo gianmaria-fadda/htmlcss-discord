@@ -41,11 +41,13 @@ img :not(.ita-img){
     }
 
 .nav-button {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     flex-basis: 70%;
     text-align: center;
     color: white;
     padding: 10px 15px;
+
 }
 
 .accedi,
@@ -54,16 +56,18 @@ img :not(.ita-img){
 .scarica-mac-blue,
 .registrati-button {
     padding: 15px;
-    height: 30px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.scarica-mac-white,
-.scarica-mac-blue {
+.scarica-mac-white {
     width: 20%;
+}
+
+.scarica-mac-blue {
+    width: 33%;
 }
 
 .apri-browser {
@@ -84,6 +88,7 @@ img :not(.ita-img){
     color: white;
     background-color: #23272A;
     border: 1px solid #23272A;
+    padding: 10px;
 }
     /*
     MAIN
@@ -92,16 +97,15 @@ img :not(.ita-img){
     background-image: url(../img/jumbo.png);
     background-size: cover;
     display: flex;
+    justify-content: center;
+    padding: 80px 0;
 }
 
 .first-main {
     max-width: 100%;
-    height: 550px;
+    height: 250px;
     color: white;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .first-main > h2 {
@@ -115,6 +119,11 @@ h2 :not(.space-h2-5) {
 p {
     padding: 5px;
     font-size: larger;
+}
+
+.scarica-mac-white,
+.apri-browser {
+    margin-top: 10px;
 }
 
 .container-white {
