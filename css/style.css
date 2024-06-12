@@ -41,9 +41,11 @@ img :not(.ita-img){
     }
 
 .nav-button {
+    display: inline-block;
     flex-basis: 70%;
     text-align: center;
     color: white;
+    padding: 10px 15px;
 }
 
 .accedi,
@@ -59,9 +61,23 @@ img :not(.ita-img){
     border-top-right-radius: 20px;
 }
 
+.scarica-mac-white,
+.scarica-mac-blue {
+    width: 20%;
+}
+
+.apri-browser {
+    width: 25%;
+    height: 50px;
+}
+
 .accedi, 
 .scarica-mac-white {
+    display: inline-block;
     border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
 }
 
 .apri-browser {
@@ -73,7 +89,7 @@ img :not(.ita-img){
     MAIN
 */
 .container-blu {
-    background-image: url(../jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     display: flex;
 }
@@ -82,9 +98,10 @@ img :not(.ita-img){
     max-width: 100%;
     height: 550px;
     color: white;
-    margin: 0 auto;
     text-align: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .first-main > h2 {
@@ -176,7 +193,7 @@ p {
     width: 50%;
     text-align: center;
     padding-top: 3%;
-    background-image: url(../stars.svg);
+    background-image: url(../img/stars.svg);
 }
 
 .scarica-mac-blue,
