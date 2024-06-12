@@ -29,10 +29,10 @@ img :not(.ita-img){
 .container-header {
     background-color: #255EE9;
     display: flex;
-    height: 50px;
-    justify-content: center;
+    height: 70px;
+    justify-content: space-between;
     align-items: center;
-    padding: 2%;
+    padding: 0 20%;
 }
 
 
@@ -40,21 +40,29 @@ img :not(.ita-img){
     flex-basis: 10%;
     }
 
-.nav-button {
+.nav-button ul {
+    list-style: none;
     display: flex;
     justify-content: center;
     flex-basis: 70%;
     text-align: center;
     color: white;
-    padding: 10px 15px;
+    margin: 0;
+    padding: 0;
+}
 
+.nav-button li {
+    margin-right: 20px;
+}
+
+.nav-button a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .accedi,
 .scarica-mac-white,
-.apri-browser,
-.scarica-mac-blue,
-.registrati-button {
+.apri-browser {
     padding: 15px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -62,12 +70,17 @@ img :not(.ita-img){
     border-top-right-radius: 20px;
 }
 
-.scarica-mac-white {
-    width: 20%;
+.scarica-mac-blue,
+.registrati-button {
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .scarica-mac-blue {
-    width: 33%;
+    width: 20%;
 }
 
 .apri-browser {
@@ -182,11 +195,18 @@ p {
 .container-gray2 {
     background-color: lightgray;
     padding: 30px;
+    margin-bottom: 20px;
+}
+
+.container-text4,
+.container-text5 {
+    margin-bottom: 20px;
 }
 
 .container-img4 {
-    height: 600px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-text4 {
@@ -194,15 +214,24 @@ p {
     text-align: center;
 }
 
-.space-h2-4 {
-    margin-top: 5%;
+.container-img4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.space-h2-4,
+.space-h2-5 {
+    margin: 20px 0;
 }
 
 .container-text5 {
-    width: 50%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 3%;
     background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .scarica-mac-blue,
@@ -211,6 +240,13 @@ p {
     background-color: #7289DA;
     color: white;
     margin: 3%;
+}
+
+.scarica-mac-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 /*
     FOOTER
@@ -225,13 +261,17 @@ p {
 
 .container1 {
     width: 13%;
-    height: 550px;
     margin-left: 21%;
 }
 
 .container2 {
     width: 10.51%;
-    height: 550px;
+}
+
+.container1,
+.container2 {
+    height: auto;
+    padding-top: 70px;
 }
 
 .space-h2-6,
@@ -242,6 +282,11 @@ p {
 section {
     display: flex;
     align-items: center;
+}
+
+.ita-img {
+    width: 23px;
+    margin: 20px 0;
 }
 
 .italiano {
@@ -258,23 +303,29 @@ section {
     margin: 4%;
 }
 
-.container-hr {
+.white {
     color: white;
-    display: flex;
-    width: 100px;
+    display: block;
+    margin: 20px 0;
 }
 
 .container-footer {
     margin: 0 auto;
-    width: 7%;
-    height: 30px;
+    width: 58%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .discord2{
-    
+    width: 7%;
+    align-self: center;
+    align-content: center;
 }
 .registrati-button {
-
+    width: 10%;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    margin-right: 120px;
 }
